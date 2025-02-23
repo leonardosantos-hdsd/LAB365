@@ -1,4 +1,4 @@
-package com.helloworld;
+package com.semana02;
 
 //public class Main {
 //    public static void main(String[] args) {
@@ -11,5 +11,10 @@ public class Main {
     public static void main(String[] args) {
         HelloWorld helloWorld = new HelloWorld();
         helloWorld.printMessage();
+
+        SumCalculator sumCalculator = new SumCalculator();
+        int soma = sumCalculator.sumValues();
+        System.out.println("SOMA = " + soma);
     }
 }
+
