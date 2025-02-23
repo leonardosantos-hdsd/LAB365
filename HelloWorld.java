@@ -1,4 +1,4 @@
-package com.helloworld;
+package com.semana02;
 
 //public class HelloWorld {
 //    public static void main(String[] args) {
