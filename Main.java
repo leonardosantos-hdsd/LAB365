@@ -15,6 +15,11 @@ public class Main {
         SumCalculator sumCalculator = new SumCalculator();
         int soma = sumCalculator.sumValues();
         System.out.println("SOMA = " + soma);
+
+        CircleCalculator circleCalculator = new CircleCalculator();
+        double area = circleCalculator.calculateArea();
+        System.out.println("Área = " + area);
     }
 }
+
 
