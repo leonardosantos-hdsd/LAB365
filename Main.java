@@ -19,6 +19,10 @@ public class Main {
         CircleCalculator circleCalculator = new CircleCalculator();
         double area = circleCalculator.calculateArea();
         System.out.println("Área = " + area);
+
+        ProductCalculator productCalculator = new ProductCalculator();
+        int produto = productCalculator.calculateProduct();
+        System.out.println("PRODUTO = " + produto);
     }
 }
 
