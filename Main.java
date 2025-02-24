@@ -23,7 +23,10 @@ public class Main {
         ProductCalculator productCalculator = new ProductCalculator();
         int produto = productCalculator.calculateProduct();
         System.out.println("PRODUTO = " + produto);
+
+        AverageCalculator averageCalculator = new AverageCalculator();
+        double media = averageCalculator.calculateAverage();
+        System.out.printf("MEDIA = %.2f%n", media);
     }
 }
-
 
