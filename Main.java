@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         HelloWorld helloWorld = new HelloWorld();
         helloWorld.printMessage();
-
+        
         SumCalculator sumCalculator = new SumCalculator();
         int soma = sumCalculator.sumValues();
         System.out.println("SOMA = " + soma);
@@ -27,6 +27,8 @@ public class Main {
         AverageCalculator averageCalculator = new AverageCalculator();
         double media = averageCalculator.calculateAverage();
         System.out.printf("MEDIA = %.2f%n", media);
+
+        SalaryCalculator salaryCalculator = new SalaryCalculator();
+        salaryCalculator.calculateSalary();
     }
 }
-
